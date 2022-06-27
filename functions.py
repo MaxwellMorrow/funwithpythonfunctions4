@@ -11,8 +11,8 @@ def mult_list(list):
         return 0
     product = list[0]
 
-    if len(list) > 1 
-        for num in list[1:]
+    if len(list) > 1:
+        for num in list[1:]:
             product = product * num
     return product
 
